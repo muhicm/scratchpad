@@ -1,0 +1,60 @@
+# Ignore build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+out/
+
+# Ignore binary files and object files
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.dll
+*.dylib
+
+# Ignore generated files
+*.log
+*.tmp
+*.temp
+*.pid
+*.gz
+
+# Ignore debugging files
+*.dSYM/
+*.stackdump
+*.core
+core.*
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Ignore Makefile generated files
+Makefile
+Makefile.in
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.user
+*.sln
+*.vcxproj*
+*.DS_Store  # macOS
+
+# Ignore compiled files from tests (if any)
+tests/build/
+tests/output/
+
+# Ignore package manager folders
+.vcpkg/
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
+
